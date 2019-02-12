@@ -1,0 +1,43 @@
+    
+   /* *{
+        border:1px solid red;
+    }*/
+    
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+                color:darkblue;
+                background-color: gainsboro;
+        }
+        h1{
+            color:#45a2da;
+            
+        }
+        a{
+            color:darkblue;
+            text-decoration: none;
+        }
+        a:hover{
+            color:#45a2da;
+        }
+        
+        .btn{
+            display: inline-block;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            background-color: #45a2da;
+            color: white;
+            padding: 1.5em;
+            border-radius: 1em
+                       
+        }
+
+        .btn:hover{
+            color: white;
+            background-color: #317aa7
+        }
+
+        footer{
+            
+            color:black;
+          
+        }
