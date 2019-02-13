@@ -45,6 +45,10 @@
             box-shadow: 4px 1px 1px #45a2da inset;
             
         }
+        img{
+            max-width: 100%;
+            
+        }
 
         footer{
             
@@ -66,4 +70,17 @@
 
         .nav_list li{
             padding: 1em;
+        }
+
+        .logo{
+            height: 5em;
+            width: 12.75em;
+            /* background-color: black; */
+            background-image: url(logo.png);
+            background-size: 6.375em;
+
+
+        }
+        .col-50{
+            flex-basis: 50%;
         }
