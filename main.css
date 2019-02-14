@@ -9,7 +9,7 @@
     body{
         width: 95%;
         margin:auto;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Nunito Sans', sans-serif;
                 color:darkblue;
                 background-color: gainsboro;
         }
@@ -48,12 +48,64 @@
         img{
             max-width: 100%;
             
+            
         }
+        input[type="submit"]{
+            background-color: rgb(216, 20, 23);
+            color:white;
+            padding: 1em;
+            border-radius: 1em;
+            display:inline-block;
+            border: 0;
+        }
+        
+        input[type="submit"]:hover{
+            background-color: #45a2da;
+            color:white;
+            box-shadow: 2px 2px 0px rgb(216, 20, 23) inset; 
+        }
+        input[type="password"],
+        input[type="email"]{
+            display: inline-block;
+            border: 0;
+            background-color: rgb(255, 255, 255);
+            padding: 1em;
+            border-radius: .75em;
+            width: 50%;
+        }
+        
+        input[type="email"]:focus{
+            outline-width: 0px;
+            box-shadow: 0px 0px 11px 3px #45a2da;
+        }
+        fieldset{
+            border-style: solid;
+            border-color: #45a2da;
+            border-width: 1.5px;
+            border-radius: 1em;
+            
+        }
+        .fixed_bottom{
+            position: fixed;
+            top: 78vh;
+            background-color: gainsboro;
+            text-align: right;
+        }
+        .fixed_top{
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0vh;
+            background-color: #45a2da
 
+        }
+     
         footer{
             
             color:black;
           
+        }
+        form{
+            width: 50%;
         }
         .flex_container{
             display: flex;
@@ -62,6 +114,16 @@
         }
         .space_between{
             justify-content: space-between;
+        }
+        
+        legend{
+            background-color: #45a2da;
+            color: white;
+            padding: .5em;
+            border-radius: .75em;
+            text-align: center;
+            
+
         }
         .nav_list{
             list-style: none;
@@ -77,7 +139,10 @@
             width: 12.75em;
             /* background-color: black; */
             background-image: url(logo.png);
-            background-size: 6.375em;
+            background-size: 12.75em;
+            background-color: white;
+            
+            padding: .3em;
 
 
         }

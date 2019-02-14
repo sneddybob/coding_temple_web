@@ -3,10 +3,12 @@
 
 	<head>
 		<title> Bob's Page </title>
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 		<link rel="stylesheet" href="main.css"/>
+		
 	</head>
 	<body>
-		<header class="flex_container outline space_between" >
+		<header class="flex_container outline space_between fixed_top" >
 				<div class="logo"></div>
 			
 			<!-- <h1 ><img src="logo.png" alt="Coding Temple"/> </h1> -->
@@ -47,9 +49,24 @@
 			Our current cohort consists of students from various backgrounds and knowledge about the IT industry.
 		<p><a class="btn" href="Students.html">View more on our students!</a></p></div>
 		</section>
+
+
 		
 		<section>
-		<footer><span><strong>&copy; 2019</strong></span> Bob Snediker</footer>
+		<footer class="flex_container">
+			<div class="col-50">&copy; 2019 Bob Snediker</div>
+		
+			<div class="col-50">
+			<form class="fixed_bottom">
+				<fieldset class="space_between">
+			<legend>Sign up for our Email List for exciting News!</legend>
+			<label for="email address"> Email Address</label>
+			<input name ="email" type="email" required placeholder="person@domain.com"/>
+			<input type="submit" value="Sign Up Now!"> </input>
+			</fieldset>	
+			</form>
+		</div>
+		</footer>
 		</section>
 	</main>
 	</body>
